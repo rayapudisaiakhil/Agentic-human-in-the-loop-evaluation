@@ -1,0 +1,39 @@
+{
+  "model_version": "v1.1",
+  "dataset_version": "v1.1",
+  "accuracy": 0.8758,
+  "last_retrain": "2025-11-10T00:52:19.187419Z",
+  "total_predictions": 0,
+  "total_retrains": 1,
+  "version_history": [
+    {
+      "model_version": "v1.0",
+      "dataset_version": "v1.0",
+      "accuracy": 0.85,
+      "timestamp": "2025-11-09T10:00:00Z",
+      "samples_used": 0,
+      "improvement": 0.0,
+      "notes": "Initial baseline model"
+    },
+    {
+      "model_version": "v1.1",
+      "dataset_version": "v1.1",
+      "accuracy": 0.8758,
+      "timestamp": "2025-11-10T00:52:19.187419Z",
+      "samples_used": 2,
+      "improvement": 0.0258,
+      "notes": "Retrained with 2 feedback samples"
+    }
+  ],
+  "agent_config": {
+    "multi_agent_enabled": true,
+    "num_agents": 4,
+    "agreement_threshold": 0.66,
+    "agent_types": [
+      "primary",
+      "variation1",
+      "variation2",
+      "heuristic"
+    ]
+  }
+}

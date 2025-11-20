@@ -1,0 +1,316 @@
+2025-11-09 16:57:48 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 16:57:48 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 17:07:25 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 17:07:25 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 17:07:25 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 17:07:25 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 17:08:57 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 17:09:00 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 17:09:00 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 17:09:00 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 17:09:00 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 17:09:11 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'This is a great product!'[0m
+2025-11-09 17:09:13 - backend.main - [92mINFO[0m - [92mInference complete - ID: 1, Label: SentimentLabel.POSITIVE, Confidence: 1.000, Status: PredictionStatus.AUTO_ACCEPTED[0m
+2025-11-09 17:09:13 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'Terrible experience, would not recommend.'[0m
+2025-11-09 17:09:14 - backend.main - [92mINFO[0m - [92mInference complete - ID: 2, Label: SentimentLabel.NEGATIVE, Confidence: 0.993, Status: PredictionStatus.AUTO_ACCEPTED[0m
+2025-11-09 17:09:14 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'It's okay, nothing special.'[0m
+2025-11-09 17:09:14 - backend.main - [92mINFO[0m - [92mInference complete - ID: 3, Label: SentimentLabel.NEGATIVE, Confidence: 0.819, Status: PredictionStatus.AUTO_ACCEPTED[0m
+2025-11-09 17:09:14 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 17:09:58 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 17:10:27 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 17:15:53 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 17:15:57 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 17:15:57 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 17:15:57 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 17:15:57 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 17:16:36 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 17:17:02 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:33:08 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:33:55 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:33:58 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:33:58 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 16, Human: SentimentLabel.NEGATIVE, Agreement: False[0m
+2025-11-09 17:34:00 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 17:35:33 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'I had mixed feelings about it, it felt good in some parts and bad in others overall it was a dece...'[0m
+2025-11-09 17:35:36 - backend.main - [92mINFO[0m - [92mInference complete - ID: 34, Label: SentimentLabel.POSITIVE, Confidence: 0.998, Status: PredictionStatus.AUTO_ACCEPTED[0m
+2025-11-09 17:39:22 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 17:39:33 - backend.main - [92mINFO[0m - [92mRetrieved 3 pending samples[0m
+2025-11-09 17:40:10 - backend.main - [92mINFO[0m - [92mRetrieved 3 pending samples[0m
+2025-11-09 17:40:10 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 28, Human: SentimentLabel.POSITIVE, Agreement: True[0m
+2025-11-09 17:40:11 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:40:14 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 17:40:14 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 47, Human: SentimentLabel.POSITIVE, Agreement: True[0m
+2025-11-09 17:40:15 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 17:40:16 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 17:40:17 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 59, Human: SentimentLabel.POSITIVE, Agreement: True[0m
+2025-11-09 17:40:18 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 17:46:29 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 17:46:29 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 17:46:29 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 17:46:29 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 17:48:11 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 17:48:31 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 17:48:43 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 18:00:36 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:07:33 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:07:37 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:07:37 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:07:37 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:07:37 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:07:50 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:07:53 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:07:53 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:07:53 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:07:53 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:08:59 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:09:02 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:09:02 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:09:02 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:09:02 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:09:39 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:09:43 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:09:43 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:09:43 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:09:43 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:10:09 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:10:12 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:10:12 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:10:12 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:10:12 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:10:52 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:10:55 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:10:55 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:10:55 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:10:55 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:15:48 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:15:53 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:15:53 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:15:53 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:15:53 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:17:25 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:17:40 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:17:40 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:17:40 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:17:40 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:17:50 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:18:12 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:18:13 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:18:21 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:18:48 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:19:09 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:19:09 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:19:27 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:20:09 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:20:24 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:20:24 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:20:24 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:20:24 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:20:33 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:20:38 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 19:20:44 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:20:50 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:20:51 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:20:51 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 13, Human: SentimentLabel.NEGATIVE, Agreement: False[0m
+2025-11-09 19:20:52 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:20:56 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:20:57 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:20:57 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 25, Human: SentimentLabel.NEGATIVE, Agreement: False[0m
+2025-11-09 19:20:58 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:22:20 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:28:31 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:28:52 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:28:52 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:28:52 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:28:52 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:28:59 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:29:04 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 19:29:16 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:29:22 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:29:22 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 13, Human: SentimentLabel.POSITIVE, Agreement: True[0m
+2025-11-09 19:29:23 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:29:34 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:29:37 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:29:38 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:29:38 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 25, Human: SentimentLabel.NEGATIVE, Agreement: False[0m
+2025-11-09 19:29:39 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:32:17 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:32:20 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:32:20 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:32:20 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:32:20 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:32:31 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:32:34 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:32:34 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:32:34 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:32:34 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:33:08 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:33:12 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:33:12 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:33:12 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:33:12 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:34:25 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:34:28 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:34:28 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:34:28 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:34:28 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:34:34 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'This movie was absolutely fantastic! Best film I've seen all year!'[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: POSITIVE (0.962), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mInference complete - ID: 31, Label: POSITIVE, Confidence: 0.962, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'Terrible waste of time. Absolutely horrible in every way.'[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: NEGATIVE (0.943), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mInference complete - ID: 32, Label: NEGATIVE, Confidence: 0.943, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'It was okay, I guess. Not bad but nothing special.'[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: NEGATIVE (0.880), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mInference complete - ID: 33, Label: NEGATIVE, Confidence: 0.880, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'Some parts were good but others were really disappointing.'[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: NEGATIVE (0.915), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 19:34:37 - backend.main - [92mINFO[0m - [92mInference complete - ID: 34, Label: NEGATIVE, Confidence: 0.915, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 19:35:24 - backend.main - [93mWARNING[0m - [93mDatabase cleared[0m
+2025-11-09 19:36:46 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:36:49 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:36:49 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:36:49 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:36:49 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:36:58 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:37:03 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:37:10 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 19:37:15 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:37:40 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:37:59 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:37:59 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:37:59 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:37:59 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:38:08 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:38:14 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 19:38:19 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:44:57 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:01 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:01 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:45:01 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:45:01 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:45:21 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:24 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:24 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:45:24 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:45:24 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:45:49 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:53 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:45:53 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:45:53 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:45:53 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:46:01 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'The movie was okay, not great but not terrible either.'[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: POSITIVE (0.928), Agreement: 0.75, Status: AUTO_ACCEPTED[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92m  Agent primary_model: POSITIVE (confidence: 0.898)[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92m  Agent variation_1: POSITIVE (confidence: 0.921)[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92m  Agent variation_2: POSITIVE (confidence: 0.964)[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92m  Agent heuristic_v1: NEGATIVE (confidence: 0.500)[0m
+2025-11-09 19:46:03 - backend.main - [92mINFO[0m - [92mInference complete - ID: 31, Label: POSITIVE, Confidence: 0.928, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 19:49:33 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 19:49:58 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 19:49:58 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 19:49:58 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 19:49:58 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 19:50:05 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:50:09 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-09 19:50:15 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:52:02 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:52:07 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:52:08 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-09 19:52:08 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 13, Human: SentimentLabel.NEGATIVE, Agreement: False[0m
+2025-11-09 19:52:09 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:52:11 - backend.main - [92mINFO[0m - [92mRetrieved 1 pending samples[0m
+2025-11-09 19:52:11 - backend.main - [92mINFO[0m - [92mFeedback submitted - ID: 25, Human: SentimentLabel.POSITIVE, Agreement: True[0m
+2025-11-09 19:52:12 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-09 19:52:19 - backend.utils - [92mINFO[0m - [92mCreated checkpoint: checkpoints/model_v1.1.pt[0m
+2025-11-09 19:52:19 - backend.utils - [92mINFO[0m - [92mCreated dataset snapshot: datasets/dataset_v1.1.json[0m
+2025-11-09 19:52:19 - backend.main - [92mINFO[0m - [92mModel retrained: v1.0 → v1.1, Accuracy: 85.00% → 87.58%[0m
+2025-11-09 20:04:21 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:04:25 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:04:25 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:04:25 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:04:25 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:09:31 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:35 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:35 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:09:35 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:09:35 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:09:45 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:48 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:48 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:09:48 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:09:48 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:09:53 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:56 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:09:56 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:09:56 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:09:56 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:10:00 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:02 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:02 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:10:02 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:10:03 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:10:10 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:13 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:13 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:10:13 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:10:13 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:10:22 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:24 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-09 20:10:24 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-09 20:10:24 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-09 20:10:24 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-09 20:10:54 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'This product is absolutely amazing and I love it!'[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: POSITIVE (0.962), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92m  Agent primary_model: POSITIVE (confidence: 1.000)[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92m  Agent variation_1: POSITIVE (confidence: 1.000)[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92m  Agent variation_2: POSITIVE (confidence: 1.000)[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92m  Agent heuristic_v1: POSITIVE (confidence: 0.850)[0m
+2025-11-09 20:10:56 - backend.main - [92mINFO[0m - [92mInference complete - ID: 31, Label: POSITIVE, Confidence: 0.962, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'This is terrible and I hate it completely!'[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: NEGATIVE (0.931), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent primary_model: NEGATIVE (confidence: 1.000)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent variation_1: NEGATIVE (confidence: 0.953)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent variation_2: NEGATIVE (confidence: 0.920)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent heuristic_v1: NEGATIVE (confidence: 0.850)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mInference complete - ID: 32, Label: NEGATIVE, Confidence: 0.931, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'It's okay, not great but not terrible either.'[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: POSITIVE (0.864), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent primary_model: POSITIVE (confidence: 0.993)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent variation_1: POSITIVE (confidence: 1.000)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent variation_2: POSITIVE (confidence: 0.964)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92m  Agent heuristic_v1: POSITIVE (confidence: 0.500)[0m
+2025-11-09 20:10:57 - backend.main - [92mINFO[0m - [92mInference complete - ID: 33, Label: POSITIVE, Confidence: 0.864, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-10 09:36:32 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-10 09:37:08 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-10 09:37:08 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-10 09:37:08 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-10 09:37:08 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-10 09:37:16 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-10 09:38:13 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-10 09:38:33 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-10 09:38:33 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-10 09:38:33 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-10 09:38:33 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-10 09:38:41 - backend.main - [92mINFO[0m - [92mRetrieved 0 pending samples[0m
+2025-11-10 09:39:03 - backend.main - [92mINFO[0m - [92mRunning batch inference on 30 texts[0m
+2025-11-10 09:39:18 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-10 11:50:15 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-10 11:50:19 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-10 11:50:19 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-10 11:50:19 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-10 11:50:19 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-10 12:29:42 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
+2025-11-10 12:51:46 - backend.main - [92mINFO[0m - [92mStarting HITL Validation Pipeline Backend[0m
+2025-11-10 12:51:46 - backend.main - [92mINFO[0m - [92mDatabase initialized[0m
+2025-11-10 12:51:46 - backend.main - [92mINFO[0m - [92mModel will be lazy-loaded on first request[0m
+2025-11-10 12:51:46 - backend.main - [92mINFO[0m - [92mSystem info: {'platform': 'macOS-26.0.1-arm64-arm-64bit', 'python_version': '3.11.3', 'processor': 'arm', 'machine': 'arm64', 'torch_version': '2.9.0', 'cuda_available': False, 'transformers_version': '4.57.1'}[0m
+2025-11-10 12:51:52 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-10 12:52:29 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-10 12:52:49 - backend.main - [92mINFO[0m - [92mRunning inference on text: 'Its fine,not so exiciting.'[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92mMulti-agent validation - Consensus: POSITIVE (0.875), Agreement: 1.00, Status: AUTO_ACCEPTED[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92m  Agent primary_model: POSITIVE (confidence: 0.999)[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92m  Agent variation_1: POSITIVE (confidence: 1.000)[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92m  Agent variation_2: POSITIVE (confidence: 1.000)[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92m  Agent heuristic_v1: POSITIVE (confidence: 0.500)[0m
+2025-11-10 12:52:52 - backend.main - [92mINFO[0m - [92mInference complete - ID: 31, Label: POSITIVE, Confidence: 0.875, Status: AUTO_ACCEPTED, Multi-agent: True[0m
+2025-11-10 12:53:20 - backend.main - [92mINFO[0m - [92mRetrieved 2 pending samples[0m
+2025-11-10 14:43:54 - backend.main - [92mINFO[0m - [92mShutting down HITL Validation Pipeline Backend[0m
